@@ -30,9 +30,9 @@ fork
 join
 ```
 **因为fork join内都是并行的，所以顺序不影响结果**
-##条件语句
-##寄存器和参数
-##case语句
+## 条件语句
+## 寄存器和参数
+## case语句
 ```verilog
 case
 
@@ -41,7 +41,9 @@ endcase
 case
 casez（不考虑高阻值）
 casex **(不考虑不定值和高阻值）**
-##task和function说明语句的不同点
+
+## task和function说明语句的不同点
+
 ```
 1.task可以单独定义自己的时间
 2.函数不能启动任务，任务可以启动跟其他函数
